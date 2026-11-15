@@ -1,9 +1,8 @@
 {
   "name": "Token Mode Matrix",
   "description": "Figma-style spreadsheet interface for creating and editing Penpot design tokens across multiple modes simultaneously.",
-  "host": "https://dannykalin.github.io/penpot-tokenizer",
-  "code": "plugin.js",
-  "icon": "icon.svg",
+  "code": "penpot-tokenizer/plugin.js",
+  "icon": "penpot-tokenizer/icon.svg",
   "permissions": [
     "content:read",
     "content:write",

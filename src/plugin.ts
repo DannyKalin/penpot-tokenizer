@@ -3,7 +3,7 @@ import type { UiToPluginMessage } from './types';
 
 const bridge = createTokenBridge(penpot);
 
-penpot.ui.open('Token Mode Matrix', `?theme=${penpot.theme}`, {
+penpot.ui.open('Token Mode Matrix', `penpot-tokenizer/?theme=${penpot.theme}`, {
   width: 960,
   height: 600,
 });
