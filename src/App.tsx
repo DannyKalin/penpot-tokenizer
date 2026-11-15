@@ -758,7 +758,7 @@ export function App({ initialTheme }: AppProps) {
 
   const handleDuplicateRow = (row: MatrixRow) => {
     const baseName = row.name.trim() || 'token';
-    const copyName = `${baseName}.copy`;
+    const copyName = `${baseName}-copy`;
     const duplicated: MatrixRow = {
       id: `draft-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
       name: copyName,
