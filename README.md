@@ -8,7 +8,7 @@ A Figma-style spreadsheet/table interface for creating and editing Penpot design
 2. Press **`Cmd+Option+P`** (macOS) / **`Ctrl+Alt+P`** (Windows/Linux) — or open **Plugins → Plugin Manager** from the main menu.
 3. Paste the plugin manifest URL:
    ```text
-   https://<your-username>.github.io/penpot-tokenizer/manifest.json
+   https://dannykalin.github.io/penpot-tokenizer/manifest.json
    ```
 4. Click **Install** / **Open**, then launch **Token Mode Matrix** from your Plugins menu.
 
